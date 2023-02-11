@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.ingredients-list {
+    list-style: square inside;
+}
+
+header > img {
+    width: 100px;
+}
+
+
+ol {
+    list-style: upper-roman inside; /* This needed inside to work */
+    ;
+}
+
+ul a {
+    text-decoration: none; /* This assures the a elements are not underlined */
+}
+
+
+body {
+    background-color: bisque;
+}
+
+
+input[type="radio"]:checked {
+    background-position: 30px 30px;
+}
+
+
+input[type="radio"]:checked:hover {
+    background-color: blue;
+    background-position: 30px 30px;
+}  /*this made it so when you hovered over the radio button that was selected it became blue*/
+
+input[type="radio"], select, input[type="submit"] { /*this allows you to edit the submit function of the radio button. or its select element*/
+    cursor: pointer;
+    outline: none;
+}
+
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+}
+
+
+input[type="submit"] {
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:last-child {
+    background-color: gold;
+}
+
+input[type="submit"]:hover {
+    background-color: lightslategray;
+}
+
+ol li:nth-child(odd) { background:#FEFFF1; } /* this takes the ol list and then the li's and for every odd makes it gray*/
+
+.user_review h4{font-size:18px;font-weight:700}
+
+h2+.user_review{border-top:1px solid #000}
